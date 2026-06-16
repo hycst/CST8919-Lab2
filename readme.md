@@ -53,7 +53,7 @@ AppServiceConsoleLogs
 | where ResultDescription contains "LOGIN_FAILED"
 | summarize FailedLoginCount = count() by bin(TimeGenerated, 5m)
 ```
-#### YouTube video demo
+YouTube video demo
 
 ##### Explanation:
 
