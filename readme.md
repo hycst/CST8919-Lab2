@@ -53,10 +53,13 @@ AppServiceConsoleLogs
 | where ResultDescription contains "LOGIN_FAILED"
 | summarize FailedLoginCount = count() by bin(TimeGenerated, 5m)
 ```
+#### YouTube video demo
+
 ##### Explanation:
 
 This query is to searches the App Service console logs,  from the last 5 minutes. 
 It will filter log messages that contain LOGIN_FAILED, after then, it will  count how many failed login attempts occurred for each 5 minutes 
+
 
 ##### Alert Rule Settings
 ```
@@ -71,8 +74,4 @@ Severity: 2 or 3
 Action Group: Email notification
 ```
 
-#### YouTube video demo
-##### App deployed
-##### Log generation and inspection in Azure Monitor
-##### KQL query usage
-##### Alert configuration and triggering
+
