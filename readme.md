@@ -2,6 +2,7 @@
 
 #### Code
 
+```
 from flask import Flask, request, jsonify
 import logging
 from datetime import datetime
@@ -39,6 +40,7 @@ def login():
 
 if __name__ == "__main__":
     app.run()
+```
 
 #### learned during this lab
 When working on this lab2, I learned how to deploy a Flask application to Azure App Service, enable diagnostic logging, send logs to a Log Analytics Workspace, and use Kusto Query Language to analyze application logs. 
