@@ -18,7 +18,7 @@
 - REST Client Extension
 
 
-# Project Architecture
+#### Project Architecture
 
 ```
 
@@ -53,6 +53,10 @@ Email Notification
 
 ```
 
+#### Code
+https://github.com/hycst/CST8919-Lab2/blob/main/app.py
+
+
 ##### KQL Query
 
 ```kusto
@@ -70,6 +74,45 @@ AppServiceConsoleLogs
 - Sorts results from newest to oldest
 
 ---
+
+##### App running:
+<img width="2983" height="856" alt="image" src="https://github.com/user-attachments/assets/fc0c8f06-ec47-4db5-925e-dfae55da8aa7" />
+
+<img width="527" height="160" alt="image" src="https://github.com/user-attachments/assets/fa0e2ded-8b12-41d3-90fe-5bdb26d0a209" />
+
+##### Successful log and failed login:
+<img width="1076" height="397" alt="image" src="https://github.com/user-attachments/assets/8e83e0cc-c9a9-43b8-b0ee-c4e87167e41b" />
+
+
+<img width="954" height="484" alt="image" src="https://github.com/user-attachments/assets/ca2bf5d7-df2a-4a89-af76-d7b462bad36c" />
+
+##### diagnostic-settings
+<img width="2424" height="1405" alt="image" src="https://github.com/user-attachments/assets/67db5dcd-0de2-4443-be53-53c3326459c8" />
+
+
+##### Create Alert rule:
+<img width="2986" height="1528" alt="image" src="https://github.com/user-attachments/assets/5aee40c3-27f0-42a2-88b0-b84dba11c78f" />
+
+<img width="2971" height="1527" alt="image" src="https://github.com/user-attachments/assets/756d42e0-e132-4b98-b069-7a50276a0254" />
+<img width="2914" height="1508" alt="image" src="https://github.com/user-attachments/assets/e5c3ea3e-4376-4aad-a123-6ac487a84c9f" />
+
+
+##### Alert setting:
+<img width="2993" height="1541" alt="image" src="https://github.com/user-attachments/assets/7071a182-5829-4c6c-9fc5-61f202496665" />
+
+##### Alter rule:
+<img width="1904" height="437" alt="image" src="https://github.com/user-attachments/assets/242012ea-44b5-4724-ae87-fd90b814f834" />
+
+##### Log Analytics Workplace,  KQL and Logs:
+<img width="1894" height="940" alt="image" src="https://github.com/user-attachments/assets/ca015923-ba01-4014-bc65-e775a2dca21a" />
+
+
+##### Alert email received:
+<img width="1213" height="655" alt="image" src="https://github.com/user-attachments/assets/e60025d4-49bf-4199-92d2-4e57b21f2723" />
+
+
+
+
 
 
 ##### Azure Alert Configuration
