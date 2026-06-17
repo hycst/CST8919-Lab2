@@ -1,0 +1,46 @@
+### Home Page
+GET http://127.0.0.1:5000/
+
+###
+
+### Successful Login
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"Password123"
+}
+
+###
+
+### Failed Login 1
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"wrongpassword"
+}
+
+###
+
+### Failed Login 2
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username":"user1",
+    "password":"123456"
+}
+
+###
+
+### Failed Login 3
+POST http://127.0.0.1:5000/login
+Content-Type: application/json
+
+{
+    "username":"guest",
+    "password":"abc"
+}
