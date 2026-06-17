@@ -103,4 +103,7 @@ Another challenge was locating the correct alert configuration options because t
 
 Finally, I had to verify that diagnostic settings were correctly sending application logs to the Log Analytics Workspace before the KQL queries and alert rules could function properly.
 
+##### Youtube Demo
+https://youtu.be/SVAfEG4W9mQ
+
 
